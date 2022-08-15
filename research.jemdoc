@@ -1,0 +1,82 @@
+# jemdoc: menu{MENU}{research.html}, nofooter  
+== Research and Projects
+
+== 2D Localisation and SLAM
+~~~
+{}{img_left}{2dslam.png}{alt text}{200px}{130px}{}
+My implimentation of probabilistic robotics algorithms for localisationa and SLAM like Prticle Filter, 
+Kalman Filter, EKF, and main implimentation of graph SLAM in a  2d pygame simulator 
+- Backend optimises a pose graph of Gauss Netwon for optimisation using the schur trick
+- Frontend Impliments an Iterative closest point for the simulated point cloud and user has to guid 
+robot to start point for loop closure
+
+\[[https://github.com/tohsin/Localisation_and_Slam_algorithms_implimentation.git Github Link]\]
+~~~
+
+== Visual Slam and Visual Slam Python
+~~~
+{}{img_left}{vslam.png}{alt text}{200px}{130px}{}
+Implimentaion of several concepts in visual Slam like Visual Odometry, optical flow, bundle adjustment, pose graph,
+loop closure, Siding window and dense reconstruction using Gauss Newton or g2o for optimisation. 
+Visual slam Python is meant to serve as python repo to prototype Visual slam concepts using python  wrappers for
+g2o, pangolin etc.\n
+
+\[ [https://github.com/tohsin/visual-slam-python.git Visual slam Python ] [https://github.com/tohsin/visual-slam.git Visual slam]\]
+~~~
+
+== Tomato harvesting Soft Robotic arm (Research Assistant)
+
+Joined a team of 3 with a graduate student to design and impliment an almost cost effective soft robotic arm to be used for 
+harvesting Tomatos in a farm.
+- Using a vaccum pump, Cassava and rubber as the mechanism to grab Tomatos and harvest them
+- Trained a YOLO algorithms to identify types of tamatoes as well as asses state of fruit (Ripe/ Unripe) and deploy a version on raspberry pI
+- Simulated manipulator forward and inverse kinematic motions using python robotics toolbox.
+
+== LOUISE -A Medical CHATBOT 
+
+Medical Cahtbot designed to suggest emergency suggestions and solutions by avoiding large datasets of intents
+required to train similar bots. Chat bot has a sperate SVC model trained to categorise halth problems  based on
+symptoms and a seperate Transformer model to detect Symptoms as intents and using several simlarity algoritms, map
+the right symptoms. Spliting the backend like this avoids hourse of writing a lot of intents to map symptoms in phrases to diagnosis
+
+\[[https://github.com/tohsin/rasaSymptomChatBot.git Github Link]\]
+
+== Electronic Car Ignition using Face Recongnition 
+
+Development of a portable device to work with cars for car owners to start engines using face recognition,
+application comes with a GUI and LCD and is developed to run optimally on a raspberry pi with motors 
+attached to simulate car engine starting.
+
+\[[https://github.com/tohsin/face_recognition_to_start_engine.git Github Link]\]
+
+== IOT Remote Farm monitoring
+
+Development of an IOT solution for farmers to monitor some properties of their farms remotely using a colllection of 
+sensors suite with real time connection to a web API that works with an IOS MObile application and also inludes and
+automatic sprikler if soil humidity drops to a certain threshold.
+
+== Car Monitoring OBD2-Mobile
+
+A portable Device working wtih an OBD device connected to cars providing realtime data and in some cases diagnosis 
+to users remotely to theoir mobile devices. The OBD2 rmotley connects to a RAspberry Pi that then publishes 
+information to user website or mobile device.
+
+== Double Transfer learning for Covid Prediction on Mobile Devices
+
+We show a proof of double transfer learning, The neural Net was first trained on large dataset of X-rays on pneumoia 
+so neural net learns structure of Xray images and the finally trained on Covid Xray data set.
+Due to compatibility and optimsation Mobile net was the prettrained model to allow easy qunatisation to deploy on a 
+mobile device with tensor flow Localisation_and_Slam_algorithms_implimentation
+
+
+==  Remote Repogrammable Robotic Arm (Final Year Project)
+
+Development of a remote solution to programming robot arms.A mobile application that remotely connects to the
+robotic arm and offers two modes one two dirretly actuate the arm and one to programd ans save a sequence of
+tasks so one robot can be adapted and switched to diffrent task easily.
+
+== Robot Receptionist Concept Design ( Group project)
+
+Concept design for robot receptionist during the Covid 19 period to provide tour for users visiting the
+mechaincal Engineering building. We explore CAD design of the robot, use of active Rfid for localisation,
+prerecorded audio for conversations and a langauge model for intent detection

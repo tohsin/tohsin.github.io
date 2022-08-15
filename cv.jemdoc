@@ -1,0 +1,87 @@
+# jemdoc: menu{MENU}{cv.html}, nofooter  
+== Curriculum Vitae
+
+== Education
+B.Eng in Mechanical Engineering, /* Covenant University*/, Nigeria, Ota, AUG 2016 - SEP 2021
+
+
+== Professional Experience
+- * /JosPlay Africa/ (Machine Learning Enginner\/AI Researcher) Contract Engineer * , APR 2022 - JUN 2022
+Built models to correctly categorise and index African Music and Genres
+--  Worked on machine learning models to correctly categorize African Genres of music like Fuji and High life,
+    with pipeline including large models for all the genres and then specic models to confirm confidence
+    of the classification.
+--  Use of CNN based models for audio tasks like  CNN-RNN-LSTM and CNN-Attention module architectures.
+-- Built models and pipeline to recommend other african tracks based on user history and similarity models.
+--  Developed Auto Encoder - Decoder networks to serve as an alternative to MFCC and Spectrograms for 
+    feature extraction and compression of african music to accelerate training of future models and save space on
+    data storage.
+
+- * /ALAT By Wema Bank/ (Software Engineer / Machine Learning Engineer) Intern * , DEC 2021 - APR 2022
+--  Using Computer Vision and OCR to develop a Saas that automates user authentication on banking platforms (KYC),
+    this prevents downtime in manual user verification.
+
+
+- * /Covenant University Research and Development Center/ ( Research Assistant\/)* , APR 2022 - JUNE 2022
+--  Partnered to design and program a soft robotic arm for harvesting tomatoes on a 
+    farm implementing YOLO for perception and object detection using Pytorch.
+--  Simulated manipulator forward and inverse kinematic motions using python robotics toolbox.
+-- Deployed Perception and Controls stack on a Rasberry PI.
+
+- * /Dangote SinoTruk  / ( Truck assembly line worker) Intern * ,  APR 2020 - JULY 2020
+--  Participated in assembly of dangote trucks from chassis to  finished state.
+--  Routine maintenance of company facilities like logistic vehicles and forklifts.
+
+- * /Addax Petroleum  / ( Facilities Engineer) Intern * ,  APR 2020 - JULY 2020
+--  Concept design for Pipe inspection robot with tele-operarion functions and real time monitoring.
+--  3d Modeling and design of a Sand catcher for oil filtering on site at addax petorkeum facilities.
+
+- * / Leadway Assurance / (Software Engineer / App & Backend Developer) Intern * , APR 2019 - OCT 2019
+-- Collaborated with a fellow software engineer to develop an access control system,
+    wherein my responsibilities included building a Mobile Android (JAVA) application and back-end web services
+    with  ASP.net Web API
+-- Built working APIs to interact with the database using C#. APIs developed were used for staff authentication, 
+    to control turnstiles and interface with QR Code Scanners, use company utilities included in the 
+    Access Control System.
+
+
+== Honors and Awards
+*Competitive Programming  Competition (2021) ICPC Regionals* \n
+- Team Lead and Third Place Runner up for both /* (ACPC) Africa and Arab Collegiate Programming Championship */ \n
+    and  /* (NCPC) Nigeria and Arab Collegiate Programming Championship */
+
+
+== Computer Skills
+*Programming Languages* \n
+- Python, C & C\+\+, C-Sharp, JAVA, Swift, Latex, SQL, BASH
+
+*Deep Learning Framework and Machine Learning* \n
+- TensorFlow / Keras, PyTorch, scikit-learn
+
+*CAD and Simulation* \n
+- MuJoCo, SolidWorks, AutoCAD, AutoDesk Inventor
+
+*Operating Systems and Platforms* \n
+- MAC Os, Linux, Windows, ARDUINO/ESP , Raspberry Pi
+
+
+*Other Technical Skills and Software* \n
+- ROS1, Databases (MSSQL,MONGODB), Web-Dev BAckend( ASP.NET, Django/ Flask), 
+  Mobile devopment( Android, IOS ), RASA( CHATBOT Framework ),
+  Computer Vison, Deep learning 
+
+== Volunteer Experience
+
+*Programming Tutor* \n
+
+- Taught a class on introduction to Python and basics of Machine Learning in a programming bootcamp hosted by stdudents in Covenant University
+- Volluteered to teaching game programming with SCRATCH programming laguage with stduents team competing at the end  
+
+
+
+
+
+
+
+
+
