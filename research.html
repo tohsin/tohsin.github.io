@@ -21,72 +21,135 @@
 <div id="toptitle">
 <h1>Research and Projects</h1>
 </div>
+<h2>ALAC : Constrained Model-Free Reinforcement Learning with Finite-Time Stability Guarantee</h2>
+<table class="imgtable"><tr><td>
+<img src="Lyapunov.png" alt="alt text" width="300px" height="150px" />&nbsp;</td>
+<td align="left"><p>Currently contributing to ALAC:</p>
+<ul>
+<li><p>Abstract: Model-based control methods have achieved impressive performance 
+on a large variety robotic tasks over the past few decades. Then recently,
+due to eliminating the difficulty of modeling and parameter-tuning, 
+model-free reinforcement learning (RL) methods perform better under some complex scenarios.
+However, the lack of stability guarantee, which affects the interpretability of the contorl system,
+remains a significant difference in contrast to traditional methods. 
+Therefore, we propose a Lyapunov-based actor-critic method that guarantees the stability 
+of control system. Interestingly, we introduce the data-driven stability condition that meets 
+the demand of finite-time stability convergence. Furthermore, the Lyapunov critic function is
+conducted by a constrained neural network, thus making some necessary conditions satisfied naturally. 
+Experimental results demonstrate our approach achieves lower cost and faster convergence rate
+compared with previous studies.</p>
+</li>
+</ul>
+<p>[<a href="https://sites.google.com/view/adaptive-lyapunov-actor-critic">Blind Review Link</a>]</p>
+</td></tr></table>
+<h2>SpaceRobotEnv (Tsinghua-Space-Robot-Learning-Group)</h2>
+<table class="imgtable"><tr><td>
+<img src="ral.gif" alt="alt text" width="300px" height="200px" />&nbsp;</td>
+<td align="left"><p>SpaceRobotEnv is an open-sourced environment for trajectory planning of free-floating space robots.
+Different from the traditional robot, the free-floating space robot is a dynamic coupling
+system because of the non-actuated base.
+Therefore, model-based trajectory planning methods encounter many difficulties in modeling 
+and computing.
+Contributions include:</p>
+<ul>
+<li><p>SpaceRobotEnvPointCloud-V0 an env version of SpaceRobotEnv with point cloud used as the observation.</p>
+</li>
+<li><p>Reinforcement learning algorithms implementation and experimentations on different models 
+and performance comparisons (PPO, SAC , DDPG, TRPO)</p>
+</li>
+</ul>
+<p>[<a href="https://github.com/Tsinghua-Space-Robot-Learning-Group/SpaceRobotEnv.git">Github Link</a>]</p>
+</td></tr></table>
 <h2>2D Localisation and SLAM</h2>
 <table class="imgtable"><tr><td>
-<img src="2dslam.png" alt="alt text" width="200px" height="130px" />&nbsp;</td>
-<td align="left"><p>My implimentation of probabilistic robotics algorithms for localisationa and SLAM like Prticle Filter, 
-Kalman Filter, EKF, and main implimentation of graph SLAM in a  2d pygame simulator </p>
+<img src="2dslam.png" alt="alt text" width="300px" height="150px" />&nbsp;</td>
+<td align="left"><p>My implementation of probabilistic robotics algorithms and assignments from introduction to mobile robotics
+project includes algorithms for localization and SLAM like Particle Filter, Kalman Filter, EKF, and 
+a capstone implementation of graph SLAM in a 2d Pygame simulator.<br /></p>
 <ul>
-<li><p>Backend optimises a pose graph of Gauss Netwon for optimisation using the schur trick</p>
+<li><p>Backend optimizes a pose graph generated from moving the robot in the simulator using Gauss Netwon with Schur trick for optimization.</p>
 </li>
-<li><p>Frontend Impliments an Iterative closest point for the simulated point cloud and user has to guid 
-robot to start point for loop closure</p>
+<li><p>Frontend Implements an Iterative closest point for the simulated point cloud and the user has to guide robot to the start point for loop closure</p>
 </li>
 </ul>
 <p>[<a href="https://github.com/tohsin/Localisation_and_Slam_algorithms_implimentation.git">Github Link</a>]</p>
 </td></tr></table>
 <h2>Visual Slam and Visual Slam Python</h2>
 <table class="imgtable"><tr><td>
-<img src="vslam.png" alt="alt text" width="200px" height="130px" />&nbsp;</td>
-<td align="left"><p>Implimentaion of several concepts in visual Slam like Visual Odometry, optical flow, bundle adjustment, pose graph,
-loop closure, Siding window and dense reconstruction using Gauss Newton or g2o for optimisation. 
-Visual slam Python is meant to serve as python repo to prototype Visual slam concepts using python  wrappers for
-g2o, pangolin etc.<br /></p>
+<img src="vslam.png" alt="alt text" width="300px" height="150px" />&nbsp;</td>
+<td align="left"><p>Implementation of several concepts in Visual Slam like Visual Odometry, optical flow, bundle adjustment, pose graph,
+loop closure, Siding window, and dense reconstruction using Gauss-Newton or g2o for optimization. 
+Visual slam Python is meant to serve as a python repo to prototype Visual slam concepts using python  wrappers for
+g2o, pangolin etc.( Still OnGoing)<br /></p>
 <p>[ <a href="https://github.com/tohsin/visual-slam-python.git">Visual slam Python</a> <a href="https://github.com/tohsin/visual-slam.git">Visual slam</a>]</p>
 </td></tr></table>
 <h2>Tomato harvesting Soft Robotic arm (Research Assistant)</h2>
-<p>Joined a team of 3 with a graduate student to design and impliment an almost cost effective soft robotic arm to be used for 
-harvesting Tomatos in a farm.</p>
+<p>Joined a team of 3 with a graduate student to design and implement a  cost-effective soft robotic arm to be used for 
+harvesting Tomatoes on a farm.</p>
 <ul>
-<li><p>Using a vaccum pump, Cassava and rubber as the mechanism to grab Tomatos and harvest them</p>
+<li><p>Using a vacuum pump, Cassava, and rubber as the components for the grabbing mechanism.</p>
 </li>
-<li><p>Trained a YOLO algorithms to identify types of tamatoes as well as asses state of fruit (Ripe/ Unripe) and deploy a version on raspberry pI</p>
+<li><p>Trained YOLO algorithms to identify types of tomatoes as well as assess the state of fruit (Ripe/ Unripe) </p>
+</li>
+<li><p>Deploy project on a Raspberry PI with a camera attached and use Serial connection with an Arduino for control of the joints and gripper actuator</p>
 </li>
 <li><p>Simulated manipulator forward and inverse kinematic motions using python robotics toolbox.</p>
 </li>
 </ul>
 <h2>LOUISE -A Medical CHATBOT </h2>
-<p>Medical Cahtbot designed to suggest emergency suggestions and solutions by avoiding large datasets of intents
-required to train similar bots. Chat bot has a sperate SVC model trained to categorise halth problems  based on
-symptoms and a seperate Transformer model to detect Symptoms as intents and using several simlarity algoritms, map
-the right symptoms. Spliting the backend like this avoids hourse of writing a lot of intents to map symptoms in phrases to diagnosis</p>
+<table class="imgtable"><tr><td>
+<img src="rasa1.jpg" alt="alt text" width="300px" height="150px" />&nbsp;</td>
+<td align="left"><p>A Medical Chatbot designed to suggest emergency diagnosis from symptoms communicated by users but unlike other chatbots, 
+we show a technique that avoids large datasets of intents required to train similar bots.
+The Chatbot has a separate SVC model trained to categorize health problems based on symptoms and we have a separate Transformer 
+model to detect Symptoms as intents and using several similarity algorithms, map the right symptoms.
+Splitting the backend like this avoids hours of writing a lot of intents to map symptoms in phrases to diagnosis</p>
 <p>[<a href="https://github.com/tohsin/rasaSymptomChatBot.git">Github Link</a>]</p>
+</td></tr></table>
+<h2>CxrCovidClassify - Double Transfer learning for Covid Prediction on Mobile Devices</h2>
+<table class="imgtable"><tr><td>
+<img src="screens.png" alt="alt text" width="300px" height="200px" />&nbsp;</td>
+<td align="left"><p>We show the use of Double Transfer learning, The neural Net was first trained on a large dataset of X-rays on pneumonia 
+so neural net learns the structure of Xray images and the finally trained on Covid Xray data set.
+Due to compatibility and optimisation, Mobile net was the pre-trained model to allow easy quantisation to deploy on a 
+mobile device with tensor flow lite.</p>
+<p>[<a href="https://github.com/t-regbs/CxrCovidClassify.git">Github Link</a>]</p>
+</td></tr></table>
 <h2>Electronic Car Ignition using Face Recongnition </h2>
 <p>Development of a portable device to work with cars for car owners to start engines using face recognition,
-application comes with a GUI and LCD and is developed to run optimally on a raspberry pi with motors 
+the application comes with a GUI and LCD and is developed to run optimally on a raspberry pi with motors 
 attached to simulate car engine starting.</p>
 <p>[<a href="https://github.com/tohsin/face_recognition_to_start_engine.git">Github Link</a>]</p>
 <h2>IOT Remote Farm monitoring</h2>
-<p>Development of an IOT solution for farmers to monitor some properties of their farms remotely using a colllection of 
-sensors suite with real time connection to a web API that works with an IOS MObile application and also inludes and
-automatic sprikler if soil humidity drops to a certain threshold.</p>
+<p>Development of an IoT solution for farmers to monitor some properties of their farms remotely using a collection of 
+sensors suite with real-time connection to a web API that works with an IOS Mobile application and also includes and
+automatic sprinkler if soil humidity drops to a certain threshold.</p>
 <h2>Car Monitoring OBD2-Mobile</h2>
-<p>A portable Device working wtih an OBD device connected to cars providing realtime data and in some cases diagnosis 
-to users remotely to theoir mobile devices. The OBD2 rmotley connects to a RAspberry Pi that then publishes 
-information to user website or mobile device.</p>
-<h2>Double Transfer learning for Covid Prediction on Mobile Devices</h2>
-<p>We show a proof of double transfer learning, The neural Net was first trained on large dataset of X-rays on pneumoia 
-so neural net learns structure of Xray images and the finally trained on Covid Xray data set.
-Due to compatibility and optimsation Mobile net was the prettrained model to allow easy qunatisation to deploy on a 
-mobile device with tensor flow Localisation_and_Slam_algorithms_implimentation</p>
+<table class="imgtable"><tr><td>
+<img src="obd.jpeg" alt="alt text" width="200px" height="130px" />&nbsp;</td>
+<td align="left"><p>A portable device working with an OBD device, the OBD is connected to cars providing real-time data and in some cases
+diagnosis to users remotely on their mobile devices. The OBD2 remotely connects to a Raspberry Pi that
+then publishes information to the user website or mobile device.</p>
+</td></tr></table>
 <h2>Remote Repogrammable Robotic Arm (Final Year Project)</h2>
-<p>Development of a remote solution to programming robot arms.A mobile application that remotely connects to the
-robotic arm and offers two modes one two dirretly actuate the arm and one to programd ans save a sequence of
-tasks so one robot can be adapted and switched to diffrent task easily.</p>
-<h2>Robot Receptionist Concept Design ( Group project)</h2>
-<p>Concept design for robot receptionist during the Covid 19 period to provide tour for users visiting the
-mechaincal Engineering building. We explore CAD design of the robot, use of active Rfid for localisation,
-prerecorded audio for conversations and a langauge model for intent detection</p>
+<table class="imgtable"><tr><td>
+<img src="robarm.png" alt="alt text" width="300px" height="200px" />&nbsp;</td>
+<td align="left"><p>Development of a remote solution to programming robot arms. A mobile application that 
+remotely connects to the robotic arm and offers two modes one two directly actuate the arm and 
+one to program and save a sequence of tasks so one robot can be adapted and switched to different
+task easily.</p>
+<ul>
+<li><p>3D Modelling was done with SOLIDWORKS and arm was made of arcylic materials.</p>
+</li>
+<li><p>Arm uses Raspberry and an arduino for control and WI-FI connection for remote control</p>
+</li>
+</ul>
+</td></tr></table>
+<h2>Robot Receptionist Concept Design ( Group Project )</h2>
+<p>Concept design for robot receptionist during the Covid 19 period to provide a tour for 
+users visiting the mechanical Engineering building. 
+We explore the CAD design of the robot, the use of active Rfid for localization,
+use pre-recorded audio for conversation with humans and a language model for intent detection.</p>
 </td>
 </tr>
 </table>
