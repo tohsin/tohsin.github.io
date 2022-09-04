@@ -4,7 +4,7 @@
 
 == ALAC : Constrained Model-Free Reinforcement Learning with Finite-Time Stability Guarantee
 ~~
-{}{img_left}{Lyapunov.png}{alt text}{300px}{150px}{}
+{}{img_left}{imgs/Lyapunov.png}{alt text}{300px}{150px}{}
 Currently contributing to ALAC:
 - Abstract: Model-based control methods have achieved impressive performance 
 on a large variety robotic tasks over the past few decades. Then recently,
@@ -22,10 +22,21 @@ Experimental results demonstrate our approach achieves lower cost and faster con
 \[[https://sites.google.com/view/adaptive-lyapunov-actor-critic Blind Review Link]\]
 ~~
 
+== SAFE PANDA GYM 
+~~
+{}{img_left}{imgs/push-safe.png}{alt text}{300px}{200px}{}
+Currently Developing:
+- Abstract: A modification to the original Panda Gym environment for the development
+ and experimentation of Safe-RL algorithms by adding more complex tasks and Constraints 
+ to the environment for agents to learn both safe and optimal policies by minimizing cost functions.
+
+\[[https://github.com/tohsin/Safe-panda-gym.git Github Link]\]
+~~
+
 
 == SpaceRobotEnv (Tsinghua-Space-Robot-Learning-Group)
 ~~
-{}{img_left}{ral.gif}{alt text}{300px}{200px}{}
+{}{img_left}{imgs/ral.gif}{alt text}{300px}{200px}{}
 SpaceRobotEnv is an open-sourced environment for trajectory planning of free-floating space robots.
 Different from the traditional robot, the free-floating space robot is a dynamic coupling
 system because of the non-actuated base.
@@ -42,7 +53,7 @@ and performance comparisons (PPO, SAC , DDPG, TRPO)
 
 == 2D Localisation and SLAM
 ~~~
-{}{img_left}{2dslam.png}{alt text}{300px}{150px}{}
+{}{img_left}{imgs/2dslam.png}{alt text}{300px}{150px}{}
 My implementation of probabilistic robotics algorithms and assignments from introduction to mobile robotics
 project includes algorithms for localization and SLAM like Particle Filter, Kalman Filter, EKF, and 
 a capstone implementation of graph SLAM in a 2d Pygame simulator.\n
@@ -54,7 +65,7 @@ a capstone implementation of graph SLAM in a 2d Pygame simulator.\n
 
 == Visual Slam and Visual Slam Python
 ~~~
-{}{img_left}{vslam.png}{alt text}{300px}{150px}{}
+{}{img_left}{imgs/vslam.png}{alt text}{300px}{150px}{}
 Implementation of several concepts in Visual Slam like Visual Odometry, optical flow, bundle adjustment, pose graph,
 loop closure, Siding window, and dense reconstruction using Gauss-Newton or g2o for optimization. 
 Visual slam Python is meant to serve as a python repo to prototype Visual slam concepts using python  wrappers for
@@ -74,7 +85,7 @@ harvesting Tomatoes on a farm.
 
 == LOUISE -A Medical CHATBOT 
 ~~
-{}{img_left}{rasa1.jpg}{alt text}{300px}{150px}{}
+{}{img_left}{imgs/rasa1.jpg}{alt text}{300px}{150px}{}
 
 A Medical Chatbot designed to suggest emergency diagnosis from symptoms communicated by users but unlike other chatbots, 
 we show a technique that avoids large datasets of intents required to train similar bots.
@@ -87,7 +98,7 @@ model to detect Symptoms as intents and using several similarity algorithms, map
 
 == CxrCovidClassify - Double Transfer learning for Covid Prediction on Mobile Devices
 ~~~
-{}{img_left}{screens.png}{alt text}{300px}{200px}{}
+{}{img_left}{imgs/screens.png}{alt text}{300px}{200px}{}
 
 We show the use of Double Transfer learning, The neural Net was first trained on a large dataset of X-rays on pneumonia 
 so neural net learns the structure of Xray images and the finally trained on Covid Xray data set.
@@ -113,7 +124,7 @@ automatic sprinkler if soil humidity drops to a certain threshold.
 
 == Car Monitoring OBD2-Mobile
 ~~
-{}{img_left}{obd.jpeg}{alt text}{200px}{130px}{}
+{}{img_left}{imgs/obd.jpeg}{alt text}{200px}{130px}{}
 A portable device working with an OBD device, the OBD is connected to cars providing real-time data and in some cases
 diagnosis to users remotely on their mobile devices. The OBD2 remotely connects to a Raspberry Pi that
 then publishes information to the user website or mobile device.
@@ -122,7 +133,7 @@ then publishes information to the user website or mobile device.
 
 ==  Remote Repogrammable Robotic Arm (Final Year Project)
 ~~~
-{}{img_left}{robarm.png}{alt text}{300px}{200px}{}
+{}{img_left}{imgs/robarm.png}{alt text}{300px}{200px}{}
 
 Development of a remote solution to programming robot arms. A mobile application that 
 remotely connects to the robotic arm and offers two modes one two directly actuate the arm and 
