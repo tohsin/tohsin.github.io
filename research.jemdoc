@@ -66,10 +66,11 @@ a capstone implementation of graph SLAM in a 2d Pygame simulator.\n
 == Visual Slam and Visual Slam Python
 ~~~
 {}{img_left}{imgs/vslam.png}{alt text}{300px}{150px}{}
-Implementation of several concepts in Visual Slam like Visual Odometry, optical flow, bundle adjustment, pose graph,
-loop closure, Siding window, and dense reconstruction using Gauss-Newton or g2o for optimization. 
-Visual slam Python is meant to serve as a python repo to prototype Visual slam concepts using python  wrappers for
-g2o, pangolin etc.( Still OnGoing)\n
+Implemented several concepts in Visual SLAM using Lie algebra and Lie groups (SE3),
+including visual odometry, optical flow, bundle adjustment, pose graph, loop closure,
+sliding window, and dense reconstruction using Gauss-Newton or g2o for optimization. 
+The Visual SLAM Python repository serves as a prototype for Visual SLAM concepts using Python wrappers for g2o,
+pangolin, etc. (ongoing project)\n
 
 \[ [https://github.com/tohsin/visual-slam-python.git Visual slam Python ] [https://github.com/tohsin/visual-slam.git Visual slam]\]
 ~~~
