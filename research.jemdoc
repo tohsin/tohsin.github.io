@@ -88,12 +88,12 @@ harvesting Tomatoes on a farm.
 ~~
 {}{img_left}{imgs/rasa1.jpg}{alt text}{300px}{150px}{}
 
-A Medical Chatbot designed to suggest emergency diagnosis from symptoms communicated by users but unlike other chatbots, 
-we show a technique that avoids large datasets of intents required to train similar bots.
-The Chatbot has a separate SVC model trained to categorize health problems based on symptoms and we have a separate Transformer 
-model to detect Symptoms as intents and using several similarity algorithms, map the right symptoms.
- Splitting the backend like this avoids hours of writing a lot of intents to map symptoms in phrases to diagnosis
-
+Designed and developed a medical chatbot that suggests emergency diagnoses based on symptoms reported by users. 
+Our chatbot uses a unique approach that avoids the need for large datasets of intents for training, 
+making it more efficient and scalable. The chatbot features a backend with two separate models - a support vector machine for 
+categorizing health problems based on symptoms, and a transformer model for detecting symptoms as intents. By using several similarity algorithms,
+ we are able to map the right symptoms to the appropriate diagnoses.
+This approach allows us to avoid the time-consuming process of manually writing a large number of intents to map symptoms to diagnoses.
 \[[https://github.com/tohsin/rasaSymptomChatBot.git Github Link]\]
 ~~
 
