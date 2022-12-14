@@ -9,21 +9,21 @@ B.Eng in Mechanical Engineering, /* Covenant University*/, Nigeria, Ota, AUG 201
 # - * /JosPlay Africa/ (Machine Learning Enginner\/AI Researcher) Contract Engineer * , APR 2022 - JUN 2022 \n
 - * /JosPlay Africa/ (Machine Learning Enginner\/AI Researcher) Contract Engineer *  \n
 Built models to correctly categorise and index African Music and Genres
---  Worked on machine learning models to correctly categorize African Genres of music like Fuji and High life,
-    with a pipeline including large models for all the genres and then specific models to confirm the confidence
-    of the classification.
---  Use of CNN-based models for audio tasks like  CNN-RNN-LSTM and CNN-Attention module architectures.
--- Built models and pipelines to recommend other African tracks based on user history and similarity models.
---  Developed Auto Encoder - Decoder networks to serve as an alternative to MFCC and Spectrograms for 
-    feature extraction and compression of African music to accelerate training of future models and save space on
-    data storage.
+--  Built ML models to classify African music genres using a pipeline that includes large models for 
+    general classification and specific models for confidence verification.
+--  Developed CNN-based models for audio tasks, including CNN-RNN-LSTM and CNN-Attention module architectures,
+    which effectively recommended songs to users based on their history and similarity to other songs.
+--  Created Encoder-Decoder type networks to serve as an alternative to MFCC and spectrogram-based 
+    approaches for feature extraction and compression of African music, 
+    improving training efficiency and reducing data storage requirements.
 
 - * /ALAT By Wema Bank/ (Software Engineer / Machine Learning Engineer) Intern * , DEC 2021 - APR 2022
---  Using Computer Vision and OCR to develop a Saas that automates user authentication on banking platforms (KYC),
-    this prevents downtime in manual user verification.
--- Using Machine Learning Models for customer segemetation to predict user behavior and suggest loan plans to users.
+--  Developed a SaaS platform using computer vision and OCR technology to automate user authentication on banking platforms,
+    preventing downtime and improving efficiency.
+-- Utilized machine learning models for customer segmentation to predict user behavior and suggest personalized loan plans,
+    improving customer satisfaction and retention.
 
-- * /Covenant University Research and Development Center/ ( Research Assistant)* , APR 2022 - JUNE 2022
+- * /Covenant University Centre for Research, Innovation and Discovery (CUCRID)/ ( Research Assistant)* , APR 2022 - JUNE 2022
 --  Partnered to design and program a soft robotic arm for harvesting tomatoes on a 
     farm implementing YOLO for perception and object detection using Pytorch.
 --  Simulated manipulator forward and inverse kinematic motions using python robotics toolbox.
