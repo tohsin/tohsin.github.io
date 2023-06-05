@@ -42,11 +42,20 @@ compared with previous studies.</p>
 </ul>
 <p>[<a href="https://sites.google.com/view/adaptive-lyapunov-actor-critic">Blind Review Link</a>]</p>
 </td></tr></table>
+<h2>TURBOGrad</h2>
+<table class="imgtable"><tr><td>
+<img src="imgs/torch_image.jpeg" alt="alt text" width="300px" height="200px" />&nbsp;</td>
+<td align="left"><p>Called turbo not because its fast but because its a mini Pytorch, well sorta.
+Repo was adapted from andrej kaparthy, but modified to solve RL tasks providing an overall
+framework for people to learn both RL and pytorch and how to implement these algorithms,
+It also includes many other features not included in Andrej work like other optimisers
+(ADAM, RMSProp) and detach functions etc. Have fun and dont forget to call Zero_grad before backward.</p>
+<p>[<a href="https://github.com/tohsin/TurboGrad">Github Link</a>]</p>
+</td></tr></table>
 <h2>SAFE PANDA GYM </h2>
 <table class="imgtable"><tr><td>
 <img src="imgs/push-safe.png" alt="alt text" width="300px" height="200px" />&nbsp;</td>
-<td align="left"><p>Currently Developing:</p>
-<ul>
+<td align="left"><ul>
 <li><p>Abstract: A modification to the original Panda Gym environment for the development
 and experimentation of Safe-RL algorithms by adding more complex tasks and Constraints 
 to the environment for agents to learn both safe and optimal policies by minimizing cost functions.</p>
@@ -112,12 +121,13 @@ harvesting Tomatoes on a farm.</p>
 <h2>LOUISE -A Medical CHATBOT </h2>
 <table class="imgtable"><tr><td>
 <img src="imgs/rasa1.jpg" alt="alt text" width="300px" height="150px" />&nbsp;</td>
-<td align="left"><p>A Medical Chatbot designed to suggest emergency diagnosis from symptoms communicated by users but unlike other chatbots, 
-we show a technique that avoids large datasets of intents required to train similar bots.
-The Chatbot has a separate SVC model trained to categorize health problems based on symptoms and we have a separate Transformer 
-model to detect Symptoms as intents and using several similarity algorithms, map the right symptoms.
-Splitting the backend like this avoids hours of writing a lot of intents to map symptoms in phrases to diagnosis</p>
-<p>[<a href="https://github.com/tohsin/rasaSymptomChatBot.git">Github Link</a>]</p>
+<td align="left"><p>Designed and developed a medical chatbot that suggests emergency diagnoses based on symptoms reported by users. 
+Our chatbot uses a unique approach that avoids the need for large datasets of intents for training, 
+making it more efficient and scalable. The chatbot features a backend with two separate models - a support vector machine for 
+categorizing health problems based on symptoms, and a transformer model for detecting symptoms as intents. By using several similarity algorithms,
+we are able to map the right symptoms to the appropriate diagnoses.
+This approach allows us to avoid the time-consuming process of manually writing a large number of intents to map symptoms to diagnoses.
+[<a href="https://github.com/tohsin/rasaSymptomChatBot.git">Github Link</a>]</p>
 </td></tr></table>
 <h2>CxrCovidClassify - Double Transfer learning for Covid Prediction on Mobile Devices</h2>
 <table class="imgtable"><tr><td>

@@ -22,10 +22,23 @@ Experimental results demonstrate our approach achieves lower cost and faster con
 \[[https://sites.google.com/view/adaptive-lyapunov-actor-critic Blind Review Link]\]
 ~~
 
+== TURBOGrad
+~~
+{}{img_left}{imgs/torch_image.jpeg}{alt text}{300px}{200px}{}
+Called turbo not because its fast but because its a mini Pytorch, well sorta.
+Repo was adapted from andrej kaparthy, but modified to solve RL tasks providing an overall
+framework for people to learn both RL and pytorch and how to implement these algorithms,
+It also includes many other features not included in Andrej work like other optimisers
+(ADAM, RMSProp) and detach functions etc. Have fun and dont forget to call Zero_grad before backward.
+
+
+\[[https://github.com/tohsin/TurboGrad Github Link]\]
+~~
+
 == SAFE PANDA GYM 
 ~~
 {}{img_left}{imgs/push-safe.png}{alt text}{300px}{200px}{}
-Currently Developing:
+
 - Abstract: A modification to the original Panda Gym environment for the development
  and experimentation of Safe-RL algorithms by adding more complex tasks and Constraints 
  to the environment for agents to learn both safe and optimal policies by minimizing cost functions.
@@ -151,3 +164,5 @@ Concept design for robot receptionist during the Covid 19 period to provide a to
 users visiting the mechanical Engineering building. 
 We explore the CAD design of the robot, the use of active Rfid for localization,
 use pre-recorded audio for conversation with humans and a language model for intent detection.
+
+
