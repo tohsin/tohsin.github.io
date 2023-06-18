@@ -5,7 +5,7 @@ permalink: /research_projects/
 author_profile: true
 ---
 
-![Image](/Users/emma/dev/tohsin.github.io/images/Lyapunov.png){: .align-left}
+![Image](images/Lyapunov.png){: .align-left}
 Model-based control methods have achieved impressive performance 
 on a large variety robotic tasks over the past few decades. Then recently,
 due to eliminating the difficulty of modeling and parameter-tuning, 
