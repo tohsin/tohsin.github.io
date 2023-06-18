@@ -1,9 +1,7 @@
 # main links
 main:
-  - title: "Reinforcement Learning and SLAM"
-    url: /reinforcement-learning/
-  - title: "Research and Projects"
-    url: /research_projects/
+  - title: "Quick-Start Guide"
+    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
