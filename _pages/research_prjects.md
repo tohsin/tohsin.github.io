@@ -5,16 +5,5 @@ permalink: /research_projects/
 author_profile: true
 ---
 
-![Image](images/Lyapunov.png){: .align-left}
-Model-based control methods have achieved impressive performance 
-on a large variety robotic tasks over the past few decades. Then recently,
-due to eliminating the difficulty of modeling and parameter-tuning, 
-model-free reinforcement learning (RL) methods perform better under some complex scenarios.
-However, the lack of stability guarantee, which affects the interpretability of the contorl system,
-remains a significant difference in contrast to traditional methods. 
-Therefore, we propose a Lyapunov-based actor-critic method that guarantees the stability 
-of control system. Interestingly, we introduce the data-driven stability condition that meets 
-the demand of finite-time stability convergence. Furthermore, the Lyapunov critic function is
-conducted by a constrained neural network, thus making some necessary conditions satisfied naturally. 
-Experimental results demonstrate our approach achieves lower cost and faster convergence rate
- compared with previous studies.
+![Image](./images/Lyapunov.png){: .align-left width="200"}
+Model-based control methods have achieved impressiv
