@@ -1,4 +1,5 @@
 ---
+layout: archive
 permalink: /courses/
 title: "Courses taken"
 author_profile: true
