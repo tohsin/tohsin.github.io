@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "dark" #"default" # "air", "aqua", "contrast", "dark"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "Tosin Oseni"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Tosin Oseni"
@@ -105,9 +105,9 @@ analytics:
 # Site Author
 author:
   name             : "Tosin Oseni"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           :  "/assets/images/tosin.jpeg"
   bio              : "I am an **amazing** person."
-  location         : "Nigeria Lagos"
+  location         : "Nigeria, Lagos"
   email            :
   links:
     - label: "Email"
