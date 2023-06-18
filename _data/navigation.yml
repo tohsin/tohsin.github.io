@@ -2,6 +2,8 @@
 main:
   - title: "Reinforcement Learning and SLAM"
     url: /reinforcement-learning/
+  - title: "Research and Projects"
+    url: /research_projects/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"

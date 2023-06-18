@@ -16,9 +16,9 @@ minimal_mistakes_skin    :  "air"   #, "dark", "aqua", "contrast", "dark", "dirt
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Rupali Bhati"
+title                    : "Tosin Oseni"
 title_separator          : "-"
-name                     : "Rupali Bhati"
+name                     : "Tosin Oseni"
 description              : "Portfolio"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -103,10 +103,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Rupali Bhati"
+  name             : "Tosin Oseni"
   avatar           : "/images/tosin.jpeg"
   bio              : "Graduate Research Assistant at MILA"
-  location         : "Montreal, Canada"
+  location         : "Nigeria, Lagos"
   # email            : "rupali.bhati4@gmail.com"
   links:
     - label: "Email"
