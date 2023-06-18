@@ -6,4 +6,4 @@ author_profile: true
 ---
 
 
-![image-left]({{ site.url }}{{ site.baseurl }}images/Lyapunov.png){: .align-left} The rest of this paragraph is filler for the sake of seeing the text wrap around the 150×150 image, which is **left aligned**.
+![image-left]({{ site.url }}{{ site.baseurl }}images/Lyapunov.png){: .align-left} The rest of this paragraph is filler for the sake of seeing the text wrap around the 159×150 image, which is **left aligned**.
