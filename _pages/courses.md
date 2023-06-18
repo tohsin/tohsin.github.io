@@ -1,5 +1,4 @@
 ---
-layout: archive
 permalink: /courses/
 title: "Courses taken"
 author_profile: true
@@ -32,8 +31,7 @@ papers and reading open source  projects source code
 ---------------
 
 ### Reinforcement Learning
-- Deep Reinforcement Learing (CS234, Stanford, [https://web.stanford.edu/class/cs234/  Emma Brunskill])
-- Introduction to Reinforcement Learning(DeepMind.Ai [https://www.youtube.com/watch?v=2pWv7GOvuf0&list=PLzuuYNsE1EZAXYR4FJ75jcJseBmo4KQ9 - David Silver])
+- Deep Reinforcement Learing [CS234, Stanford - Emma Brunskill ](#https://web.stanford.edu/class/cs234/ ){: .btn} 
 - Introduction to Reinforcement Learning[DeepMind.AI - David Silver](#https://www.youtube.com/watch?v=2pWv7GOvuf0&list=PLzuuYNsE1EZAXYR4FJ75jcJseBmo4KQ9){: .btn}
 
 -------------------
