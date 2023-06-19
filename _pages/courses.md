@@ -13,9 +13,12 @@ p {
 }
 </style>
 ### Relevant Courses 
-These includes relevant courses taken in my Undergrad as well as courses taken personally<br>
+<p style="padding-left: 20px;">
+These includes relevant courses taken in my Undergrad as well as courses taken personally
 these includes materials from school sites, Open courseware and MOOCs.<br>
 The rest i learn from books, papers and reading open source code for projects.
+</p>
+
 
 
 #### Robotics 
