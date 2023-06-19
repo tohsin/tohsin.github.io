@@ -67,12 +67,13 @@ author_profile: true
         system because of the non-actuated base.
         Therefore, model-based trajectory planning methods encounter many difficulties in modeling 
         and computing.
-        Contributions include:
-        - SpaceRobotEnvPointCloud-V0 an env version of SpaceRobotEnv with point cloud used as the observation.
-        - Reinforcement learning algorithms implementation and experimentations on different models 
+        Contributions include:</p>
+        <ul>
+      
+        <li>SpaceRobotEnvPointCloud-V0 an env version of SpaceRobotEnv with point cloud used as the observation.</li>
+        <li>Reinforcement learning algorithms implementation and experimentations on different models </li>
         and performance comparisons (PPO, SAC , DDPG, TRPO)
         <a href="https://github.com/Tsinghua-Space-Robot-Learning-Group/SpaceRobotEnv.git">Github Link</a>
-    </p>
   </div>
 </div>
 
