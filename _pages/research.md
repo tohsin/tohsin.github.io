@@ -33,7 +33,7 @@ author_profile: true
   <h2>TURBOGrad</h2>
   <hr>
   <div style="display: flex; align-items: center;">
-    <img src="/assets/images/push_safe.png" alt="image-left" style="width: 200px; height: 200px; margin-right: 10px;">
+    <img src="/assets/images/torch_image.jpeg" alt="image-left" style="width: 200px; height: 200px; margin-right: 10px;">
     <p>Called turbo not because its fast but because its a mini Pytorch, well sorta.
         Repo was adapted from andrej kaparthy, but modified to solve RL tasks providing an overall
         framework for people to learn both RL and pytorch and how to implement these algorithms,
@@ -67,7 +67,8 @@ author_profile: true
         system because of the non-actuated base.
         Therefore, model-based trajectory planning methods encounter many difficulties in modeling 
         and computing.
-        Contributions include:</p>
+        Contributions include
+    </p>
         <ul>
             <li>SpaceRobotEnvPointCloud-V0 an env version of SpaceRobotEnv with point cloud used as the observation.</li>
             <li>Reinforcement learning algorithms implementation and experimentations on different models 
