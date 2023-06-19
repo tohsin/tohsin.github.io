@@ -26,6 +26,16 @@ compared with previous studies.
 </p>
 <div>
 
+
+<div>
+  <h2>ALAC : Constrained Model-Free Reinforcement Learning with Finite-Time Stability Guarantee</h2>
+  <div style="display: flex; align-items: center;">
+    <img src="/assets/images/push_safe.png" alt="image-left" style="width: 200px; height: 200px; margin-right: 10px;">
+    <p>Text goes here</p>
+  </div>
+</div>
+
+
 <br>
 ## ALAC : Constrained Model-Free Reinforcement Learning with Finite-Time Stability Guarantee
 <img src="/assets/images/Lyapunov.png" alt="image-left" style="width: 200px; height: 150px;" align="left">
