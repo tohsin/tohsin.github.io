@@ -18,16 +18,16 @@ papers and reading open source  projects source code
 
 
 #### Robotics 
-- <small>Introduction to Robotics ( MCE501 )</small>
-- <small>Introduction to Mechatronics ( MCE501 )</small>
-- Introduction to Mobile Robotics(Uni Freiburg [http://ais.informatik.uni-freiburg.de/teaching/ss20/robotics/ Prof. Dr. Wolfram Burgard])
-- Under-Actuated Robotics(EECS 6.832, MIT [https://underactuated.mit.edu Russ Tedrake ])
-- Introduction to SLAM ([https://www.ipb.uni-bonn.de/teaching/ Cyril Stachniss])
-- Photogrammetry I / II ([https://www.ipb.uni-bonn.de/teaching/ Cyril Stachniss])
-- 14 Lectures on VISUAL SLAM( [https://github.com/gaoxiang12/slambook-en Xiang Gao])
-- Modern Robotics: Mechanics, Planning, and Control Specialization I, II, III(NorthWestern [https://www.coursera.org/specializations/modernroboticsKevin Lynch ])
+- Introduction to Robotics ( MCE501 )
+- Introduction to Mechatronics ( MCE501 )
+- Under-Actuated Robotics[EECS 6.832, MIT - Russ Tedrake](#https://underactuated.mit.edu){: .btn} 
+- Modern Robotics: Mechanics, Planning, and Control Specialization I, II, III [North Western - Lynch](#https://www.coursera.org/specializations/modernroboticsKevin){: .btn} 
 
-
+#### Visual SLAM, SLAM and State Estimation 
+- Introduction to SLAM  [Uni Freiburg - Cyril Stachniss](#https://www.ipb.uni-bonn.de/teaching/){: .btn} 
+ - Photogrammetry I / II [Cyril Stachniss](#https://www.ipb.uni-bonn.de/teaching/){: .btn} 
+- Lectures on VISUAL SLAM   [Xiang Gao](#https://github.com/gaoxiang12/slambook-en){: .btn}  
+- Introduction to Mobile Robotics  [Uni Freiburg - Prof. Dr. Wolfram Burgard](#http://ais.informatik.uni-freiburg.de/teaching/ss20/robotics/){: .btn}  
 
 #### Machine Learning and Artificial Intelligence
 - Introduction to Aritifial Intelligence [CS188, MIT  -  Patrick Henry Winston ](#https://ocw.mit.edu/courses/6-034-artificial-intelligence-fall-2010/){: .btn} 
@@ -36,8 +36,8 @@ papers and reading open source  projects source code
 
 
 #### <small>Reinforcement Learning</small>
-- <small>Deep Reinforcement Learing [CS234, Stanford - Emma Brunskill ](#https://web.stanford.edu/class/cs234/ ){: .btn} </small>
-- <small>Introduction to Reinforcement Learning[DeepMind.AI - David Silver](#https://www.youtube.com/watch?v=2pWv7GOvuf0&list=PLzuuYNsE1EZAXYR4FJ75jcJseBmo4KQ9){: .btn}</small>
+- Deep Reinforcement Learing [CS234, Stanford - Emma Brunskill ](#https://web.stanford.edu/class/cs234/){: .btn} 
+- Introduction to Reinforcement Learning[DeepMind.AI - David Silver](#https://www.youtube.com/watch?v=2pWv7GOvuf0&list=PLzuuYNsE1EZAXYR4FJ75jcJseBmo4KQ9){: .btn}
 
 #### Control Systems
 - Control Systems ( EIE412 )
