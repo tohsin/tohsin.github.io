@@ -1,10 +1,12 @@
 ---
-layout: article
+layout: archive
 permalink: /courses/
 title: "Courses taken"
 author_profile: true
 
+
 ---
+
 ## Relevant Courses 
 These includes relevant courses taken in my Undergrad as well as courses taken personally
 these includes materials from school sites, Open courseware and MOOCs. The rest i learn from books, 
@@ -19,7 +21,7 @@ papers and reading open source  projects source codeee
 - Introduction to SLAM ([https://www.ipb.uni-bonn.de/teaching/ Cyril Stachniss])
 - Photogrammetry I / II ([https://www.ipb.uni-bonn.de/teaching/ Cyril Stachniss])
 - 14 Lectures on VISUAL SLAM( [https://github.com/gaoxiang12/slambook-en Xiang Gao])
-- Modern Robotics: Mechanics, Planning, and Control Specialization I,II,III(NorthWestern [https://www.coursera.org/specializations/modernroboticsKevin Lynch ])
+- Modern Robotics: Mechanics, Planning, and Control Specialization I, II, III(NorthWestern [https://www.coursera.org/specializations/modernroboticsKevin Lynch ])
 
 
 ---------------------------
