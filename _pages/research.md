@@ -119,7 +119,7 @@ author_profile: true
   <h2>Visual Slam and Visual Slam Python</h2>
   <hr>
   <div style="display: flex; align-items: center;">
-    <img src="/assets/images/vlsam.png" alt="image-left" style="width: 300px; height: 150px; margin-right: 10px;">
+    <img src="/assets/images/vslam.png" alt="image-left" style="width: 300px; height: 150px; margin-right: 10px;">
     <p>Implemented several concepts in Visual SLAM using Lie algebra and Lie groups (SE3),
         including visual odometry, optical flow, bundle adjustment, pose graph, loop closure,
         sliding window, and dense reconstruction using Gauss-Newton or g2o for optimization. 
