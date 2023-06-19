@@ -6,7 +6,11 @@ author_profile: true
 
 
 ---
-
+<style>
+p {
+  line-height: 1;
+}
+</style>
 ### Relevant Courses 
 <small>These includes relevant courses taken in my Undergrad as well as courses taken personally
 these includes materials from school sites, Open courseware and MOOCs. The rest i learn from books, 
