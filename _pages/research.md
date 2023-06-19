@@ -57,6 +57,28 @@ author_profile: true
   </div>
 </div>
 
+<div>
+  <h2>SpaceRobotEnv (Tsinghua-Space-Robot-Learning-Group)</h2>
+  <hr>
+  <div style="display: flex; align-items: center;">
+    <img src="/assets/images/ral.png" alt="image-left" style="width: 300px; height: 200px; margin-right: 10px;">
+    <div>
+      <p>SpaceRobotEnv is an open-sourced environment for trajectory planning of free-floating space robots.
+        Different from the traditional robot, the free-floating space robot is a dynamic coupling
+        system because of the non-actuated base.
+        Therefore, model-based trajectory planning methods encounter many difficulties in modeling 
+        and computing.
+      </p>
+      <p>Contributions include:</p>
+      <ul>
+        <li>SpaceRobotEnvPointCloud-V0: an environment version of SpaceRobotEnv with point cloud used as the observation.</li>
+        <li>Reinforcement learning algorithms implementation and experimentations on different models and performance comparisons (PPO, SAC, DDPG, TRPO)</li>
+      </ul>
+      <a href="https://github.com/Tsinghua-Space-Robot-Learning-Group/SpaceRobotEnv.git">Github Link</a>
+    </div>
+  </div>
+</div>
+
 
 <div>
   <h2>SpaceRobotEnv (Tsinghua-Space-Robot-Learning-Group)</h2>
