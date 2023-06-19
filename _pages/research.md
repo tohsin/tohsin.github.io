@@ -68,13 +68,13 @@ author_profile: true
         Therefore, model-based trajectory planning methods encounter many difficulties in modeling 
         and computing.
         Contributions include
-    </p>
         <ul>
             <li>SpaceRobotEnvPointCloud-V0 an env version of SpaceRobotEnv with point cloud used as the observation.</li>
             <li>Reinforcement learning algorithms implementation and experimentations on different models 
             and performance comparisons (PPO, SAC , DDPG, TRPO)</li>
             <a href="https://github.com/Tsinghua-Space-Robot-Learning-Group/SpaceRobotEnv.git">Github Link</a>
         </ul>
+    </p>
   </div>
 </div>
 
