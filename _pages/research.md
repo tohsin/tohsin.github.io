@@ -11,7 +11,7 @@ author_profile: true
   <h2>ALAC : Constrained Model-Free Reinforcement Learning with Finite-Time Stability Guarantee</h2>
   <hr>
   <div style="display: flex; align-items: center;">
-    <img src="/assets/images/Lyapunov.png" alt="image-left" style="width: 200px; height: 200px; margin-right: 10px;">
+    <img src="/assets/images/Lyapunov.png" alt="image-left" style="width: 300px; height: 200px; margin-right: 10px;">
     <p><strong>Abstract</strong>: Model-based control methods have achieved impressive performance 
         on a large variety robotic tasks over the past few decades. Then recently,
         due to eliminating the difficulty of modeling and parameter-tuning, 
