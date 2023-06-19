@@ -1,5 +1,6 @@
 ---
 layout: archive
+classes: wide
 permalink: /courses/
 title: "Courses taken"
 author_profile: true

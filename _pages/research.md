@@ -1,6 +1,7 @@
 ---
 layout: archive
 permalink: /research/
+classes: wide
 title: "Research Projects and Regular Projects"
 author_profile: true
 
