@@ -11,7 +11,7 @@ author_profile: true
 <h2>ALAC : Constrained Model-Free Reinforcement Learning with Finite-Time Stability Guarantee</h2>
 <img src="/assets/images/push_safe.png" alt="image-left" style="width: 200px; height: 200px;" align="left">
 <p style="padding-right: 50px;">
-**Abstract**: Model-based control methods have achieved impressive performance 
+<strong>Abstract</strong>: Model-based control methods have achieved impressive performance 
 on a large variety robotic tasks over the past few decades. Then recently,
 due to eliminating the difficulty of modeling and parameter-tuning, 
 model-free reinforcement learning (RL) methods perform better under some complex scenarios.
@@ -31,7 +31,19 @@ compared with previous studies.
   <h2>ALAC : Constrained Model-Free Reinforcement Learning with Finite-Time Stability Guarantee</h2>
   <div style="display: flex; align-items: center;">
     <img src="/assets/images/push_safe.png" alt="image-left" style="width: 200px; height: 200px; margin-right: 10px;">
-    <p>Text goes here</p>
+    <p><strong>Abstract</strong>: Model-based control methods have achieved impressive performance 
+        on a large variety robotic tasks over the past few decades. Then recently,
+        due to eliminating the difficulty of modeling and parameter-tuning, 
+        model-free reinforcement learning (RL) methods perform better under some complex scenarios.
+        However, the lack of stability guarantee, which affects the interpretability of the contorl system,
+        remains a significant difference in contrast to traditional methods.
+        Therefore, we propose a Lyapunov-based actor-critic method that guarantees the stability 
+        of control system. Interestingly, we introduce the data-driven stability condition that meets 
+        the demand of finite-time stability convergence. Furthermore, the Lyapunov critic function is
+        conducted by a constrained neural network, thus making some necessary conditions satisfied naturally. 
+        Experimental results demonstrate our approach achieves lower cost and faster convergence rate
+        compared with previous studies.
+</p>
   </div>
 </div>
 
