@@ -113,16 +113,63 @@ author_profile: true
 </div>
 
 <div>
-  <h2>SAFE PANDA GYM</h2>
+  <h2> Tomato harvesting Soft Robotic arm (Research Assistant)</h2>
   <hr>
   <div style="display: flex; align-items: center;">
-    <img src="/assets/images/push_safe.png" alt="image-left" style="width: 200px; height: 200px; margin-right: 10px;">
-    <p><strong>Abstract</strong>: A modification to the original Panda Gym environment for the development
-        and experimentation of Safe-RL algorithms by adding more complex tasks and Constraints 
-        to the environment for agents to learn both safe and optimal policies by minimizing cost functions.
+    <div>
+      <p>Joined a team of 3 with a graduate student to design and implement a  cost-effective soft robotic arm to be used for 
+        harvesting Tomatoes on a farm.
+      </p>
+      <ul>
+        <li>Using a vacuum pump, Cassava, and rubber as the components for the soft arm grabbing actuator.</li>
+        <li>Trained YOLO algorithms to identify types of tomatoes as well as assess the state of fruit (Ripe/ Unripe) </li>
+        <li>Deploy project on a Raspberry PI with a camera attached and use Serial connection with an Arduino for control of the joints and gripper actuator </li>
+        <li>Simulated manipulator forward and inverse kinematic motions using python robotics toolbox.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+<div>
+  <h2>LOUISE - A Medical CHATBOT </h2>
+  <hr>
+  <div style="display: flex; align-items: center;">
+    <img src="/assets/images/rasa1.jpg" alt="image-left" style="width: 200px; height: 200px; margin-right: 10px;">
+    <p>Designed and developed a medical chatbot that suggests emergency diagnoses based on symptoms reported by users. 
+        Our chatbot uses a unique approach that avoids the need for large datasets of intents for training, 
+        making it more efficient and scalable. The chatbot features a backend with two separate models - a support vector machine for 
+        categorizing health problems based on symptoms, and a transformer model for detecting symptoms as intents. By using several similarity algorithms,
+        we are able to map the right symptoms to the appropriate diagnoses.
+        This approach allows us to avoid the time-consuming process of manually writing a large number of intents to map symptoms to diagnoses. <a href="https://github.com/tohsin/rasaSymptomChatBot.git ">Github Link</a>
     </p>
   </div>
 </div>
+
+<div>
+  <h2>CxrCovidClassify - Double Transfer learning for Covid Prediction on Mobile Devices</h2>
+  <hr>
+  <div style="display: flex; align-items: center;">
+    <img src="/assets/images/screens.png" alt="image-left" style="width: 200px; height: 200px; margin-right: 10px;">
+    <p>We show the use of Double Transfer learning, The neural Net was first trained on a large dataset of X-rays on pneumonia 
+        so neural net learns the structure of Xray images and the finally trained on Covid Xray data set.
+        Due to compatibility and optimisation, Mobile net was the pre-trained model to allow easy quantisation to deploy on a 
+        mobile device with tensor flow lite. <a href="https://github.com/t-regbs/CxrCovidClassify.git">Github Link</a>
+    </p>
+  </div>
+</div>
+
+<div>
+  <h2>Electronic Car Ignition using Face Recongnition </h2>
+  <hr>
+  <div style="display: flex; align-items: center;">
+    <p>Development of a portable device to work with cars for car owners to start engines using face recognition,
+        the application comes with a GUI and LCD and is developed to run optimally on a raspberry pi with motors 
+        attached to simulate car engine starting. <a href="https://github.com/tohsin/face_recognition_to_start_engine.git">Github Link</a>
+    </p>
+  </div>
+</div>
+
 
 <div>
   <h2>Car Monitoring OBD2-Mobile</h2>
