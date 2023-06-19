@@ -44,7 +44,7 @@ papers and reading open source  projects source code
 
 
 #### Computing
-- Computer & Computing I / II(MCE 321, MCE318)
+- Computer & Computing I / II (MCE 321, MCE318)
 - Applied Computer Programming I ( C\+\+ )(GCE 215)
 - Data Structures and Algorithms
 
