@@ -30,6 +30,21 @@ author_profile: true
 
 
 <div>
+  <h2>TURBOGrad</h2>
+  <hr>
+  <div style="display: flex; align-items: center;">
+    <img src="/assets/images/push_safe.png" alt="image-left" style="width: 200px; height: 200px; margin-right: 10px;">
+    <p>Called turbo not because its fast but because its a mini Pytorch, well sorta.
+        Repo was adapted from andrej kaparthy, but modified to solve RL tasks providing an overall
+        framework for people to learn both RL and pytorch and how to implement these algorithms,
+        It also includes many other features not included in Andrej work like other optimisers
+        (ADAM, RMSProp) and detach functions etc. Have fun and dont forget to call Zero_grad before backward.
+    </p>
+  </div>
+</div>
+
+
+<div>
   <h2>SAFE PANDA GYM</h2>
   <hr>
   <div style="display: flex; align-items: center;">
