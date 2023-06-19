@@ -56,6 +56,7 @@ papers and reading open source  projects source code
 
 
 #### Embedded Systems
-- AVR
-- SOLIDWORKS Associate (CSWA) (CIT 321)
-- Modeling and Simulation in Mechanical Engineering - AutoDesk Inventor (MCE 414)
+
+- AVR Microcontroller and Embedded Systems: Using Assembly and C [ Link ](#https://www.amazon.com/AVR-Microcontroller-Embedded-Systems-Electronics/dp/0138003319){: .btn}   
+- Mastering STM32 [ Carmine Noviello ](#https://www.carminenoviello.com/mastering-stm32/){: .btn}
+- Making Embedded Systems: Design Patterns for Great Software [Elecia White](#https://www.amazon.com/Making-Embedded-Systems-Patterns-Software/dp/1449302149/ref=sr_1_1?crid=1YK8Q5VWIMQ2R&keywords=elicia+white&qid=1687164300&s=books&sprefix=elicia+whit%2Cstripbooks-intl-ship%2C288&sr=1-1){: .btn}
