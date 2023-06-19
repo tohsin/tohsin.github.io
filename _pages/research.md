@@ -61,7 +61,7 @@ author_profile: true
   <h2>SpaceRobotEnv (Tsinghua-Space-Robot-Learning-Group)</h2>
   <hr>
   <div style="display: flex; align-items: center;">
-    <img src="/assets/images/push_safe.png" alt="image-left" style="width: 300px; height: 200px; margin-right: 10px;">
+    <img src="/assets/images/ral.gif" alt="image-left" style="width: 300px; height: 200px; margin-right: 10px;">
     <p>SpaceRobotEnv is an open-sourced environment for trajectory planning of free-floating space robots.
         Different from the traditional robot, the free-floating space robot is a dynamic coupling
         system because of the non-actuated base.
@@ -69,35 +69,43 @@ author_profile: true
         and computing.
         Contributions include:</p>
         <ul>
-      
-        <li>SpaceRobotEnvPointCloud-V0 an env version of SpaceRobotEnv with point cloud used as the observation.</li>
-        <li>Reinforcement learning algorithms implementation and experimentations on different models </li>
-        and performance comparisons (PPO, SAC , DDPG, TRPO)
-        <a href="https://github.com/Tsinghua-Space-Robot-Learning-Group/SpaceRobotEnv.git">Github Link</a>
+            <li>SpaceRobotEnvPointCloud-V0 an env version of SpaceRobotEnv with point cloud used as the observation.</li>
+            <li>Reinforcement learning algorithms implementation and experimentations on different models 
+            and performance comparisons (PPO, SAC , DDPG, TRPO)</li>
+            <a href="https://github.com/Tsinghua-Space-Robot-Learning-Group/SpaceRobotEnv.git">Github Link</a>
+        </ul>
   </div>
 </div>
 
 <div>
-  <h2>SAFE PANDA GYM</h2>
+  <h2>2D Localisation and SLAM</h2>
   <hr>
   <div style="display: flex; align-items: center;">
-    <img src="/assets/images/push_safe.png" alt="image-left" style="width: 200px; height: 200px; margin-right: 10px;">
-    <p><strong>Abstract</strong>: A modification to the original Panda Gym environment for the development
-        and experimentation of Safe-RL algorithms by adding more complex tasks and Constraints 
-        to the environment for agents to learn both safe and optimal policies by minimizing cost functions.
-    </p>
+    <img src="/assets/images/2dslam.png" alt="image-left" style="width: 300px; height: 200px; margin-right: 10px;">
+    <p>My implementation of probabilistic robotics algorithms and assignments from introduction to mobile robotics
+        project includes algorithms for localization and SLAM like Particle Filter, Kalman Filter, EKF, and 
+        a capstone implementation of graph SLAM in a 2d Pygame simulator.:</p>
+        <ul>
+            <li>Backend optimizes a pose graph generated from moving the robot in the simulator using Gauss Netwon with Schur trick for optimization.</li>
+            <li>Frontend Implements an Iterative closest point for the simulated point cloud and the user has to guide robot to the start point for loop closure</li>
+            <a href="https://github.com/tohsin/Localisation_and_Slam_algorithms_implimentation.git ">Github Link</a>
+        </ul>
   </div>
 </div>
 
 <div>
-  <h2>SAFE PANDA GYM</h2>
+  <h2>Visual Slam and Visual Slam Python</h2>
   <hr>
   <div style="display: flex; align-items: center;">
-    <img src="/assets/images/push_safe.png" alt="image-left" style="width: 200px; height: 200px; margin-right: 10px;">
-    <p><strong>Abstract</strong>: A modification to the original Panda Gym environment for the development
-        and experimentation of Safe-RL algorithms by adding more complex tasks and Constraints 
-        to the environment for agents to learn both safe and optimal policies by minimizing cost functions.
-    </p>
+    <img src="/assets/images/vlsam.png" alt="image-left" style="width: 300px; height: 150px; margin-right: 10px;">
+    <p>Implemented several concepts in Visual SLAM using Lie algebra and Lie groups (SE3),
+        including visual odometry, optical flow, bundle adjustment, pose graph, loop closure,
+        sliding window, and dense reconstruction using Gauss-Newton or g2o for optimization. 
+        The Visual SLAM Python repository serves as a prototype for Visual SLAM concepts using Python wrappers for g2o,
+        pangolin, etc.</p>
+        <a href="https://github.com/tohsin/visual-slam-python.git">Visual slam Python</a>
+        <a href="https://github.com/tohsin/visual-slam.git">Visual slam C++</a>
+
   </div>
 </div>
 
