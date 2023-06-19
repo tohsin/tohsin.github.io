@@ -13,7 +13,8 @@ p {
 }
 </style>
 ### Relevant Courses 
-<p style="text-align: justify;">These includes relevant courses taken in my Undergrad as well as courses taken<br>
+<p style="text-align: justify; padding: 0 20px;">
+These includes relevant courses taken in my Undergrad as well as courses taken<br>
 personally these includes materials from school sites, Open courseware and MOOCs.<br>
 The rest I learn from books, papers and reading open source code for projects.
 </p>
