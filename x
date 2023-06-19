@@ -51,3 +51,13 @@ Hey lets goo
     I'm a basketball fanatic and a Golden State Warriors supporter. I like to fiddle around with my drum set. 
     Puzzles are my jam. I am a true believer of unicorns. 🦄
 </font>
+
+
+
+<font size="5">
+    <strong>News:</strong> <br />
+</font>
+
+<br />
+<br />
+<br />
