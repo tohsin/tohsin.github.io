@@ -16,7 +16,7 @@ p {
 <p style="padding-left: 200px;">
 These includes relevant courses taken in my Undergrad as well as courses taken personally
 these includes materials from school sites, Open courseware and MOOCs.<br>
-The rest i learn from books, papers and reading open source code for projects.
+The rest I learn from books, papers and reading open source code for projects.
 </p>
 
 
