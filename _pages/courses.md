@@ -8,9 +8,9 @@ author_profile: true
 ---
 
 ## Relevant Courses 
-These includes relevant courses taken in my Undergrad as well as courses taken personally
+<small>These includes relevant courses taken in my Undergrad as well as courses taken personally
 these includes materials from school sites, Open courseware and MOOCs. The rest i learn from books, 
-papers and reading open source  projects source codeee
+papers and reading open source  projects source code<small>
 
 --------------------
 ### Robotics
