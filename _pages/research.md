@@ -38,11 +38,103 @@ author_profile: true
         Repo was adapted from andrej kaparthy, but modified to solve RL tasks providing an overall
         framework for people to learn both RL and pytorch and how to implement these algorithms,
         It also includes many other features not included in Andrej work like other optimisers
-        (ADAM, RMSProp) and detach functions etc. Have fun and dont forget to call Zero_grad before backward.
+        (ADAM, RMSProp) and detach functions etc. Have fun and dont forget to call `zero_grad()` before backward.
     </p>
   </div>
 </div>
 
+
+<div>
+  <h2>SAFE PANDA GYM</h2>
+  <hr>
+  <div style="display: flex; align-items: center;">
+    <img src="/assets/images/push_safe.png" alt="image-left" style="width: 200px; height: 200px; margin-right: 10px;">
+    <p><strong>Abstract</strong>: A modification to the original Panda Gym environment for the development
+        and experimentation of Safe-RL algorithms by adding more complex tasks and Constraints 
+        to the environment for agents to learn both safe and optimal policies by minimizing cost functions. [North Western - Lynch](#https://www.coursera.org/specializations/modernroboticsKevin){: .btn} 
+    </p>
+  </div>
+</div>
+
+
+<div>
+  <h2>SpaceRobotEnv (Tsinghua-Space-Robot-Learning-Group)</h2>
+  <hr>
+  <div style="display: flex; align-items: center;">
+    <img src="/assets/images/push_safe.png" alt="image-left" style="width: 300px; height: 200px; margin-right: 10px;">
+    <p>SpaceRobotEnv is an open-sourced environment for trajectory planning of free-floating space robots.
+        Different from the traditional robot, the free-floating space robot is a dynamic coupling
+        system because of the non-actuated base.
+        Therefore, model-based trajectory planning methods encounter many difficulties in modeling 
+        and computing.
+        Contributions include:
+        - SpaceRobotEnvPointCloud-V0 an env version of SpaceRobotEnv with point cloud used as the observation.
+        - Reinforcement learning algorithms implementation and experimentations on different models 
+        and performance comparisons (PPO, SAC , DDPG, TRPO)
+        <a href="https://github.com/Tsinghua-Space-Robot-Learning-Group/SpaceRobotEnv.git">Github Link</a>
+    </p>
+  </div>
+</div>
+
+<div>
+  <h2>SAFE PANDA GYM</h2>
+  <hr>
+  <div style="display: flex; align-items: center;">
+    <img src="/assets/images/push_safe.png" alt="image-left" style="width: 200px; height: 200px; margin-right: 10px;">
+    <p><strong>Abstract</strong>: A modification to the original Panda Gym environment for the development
+        and experimentation of Safe-RL algorithms by adding more complex tasks and Constraints 
+        to the environment for agents to learn both safe and optimal policies by minimizing cost functions.
+    </p>
+  </div>
+</div>
+
+<div>
+  <h2>SAFE PANDA GYM</h2>
+  <hr>
+  <div style="display: flex; align-items: center;">
+    <img src="/assets/images/push_safe.png" alt="image-left" style="width: 200px; height: 200px; margin-right: 10px;">
+    <p><strong>Abstract</strong>: A modification to the original Panda Gym environment for the development
+        and experimentation of Safe-RL algorithms by adding more complex tasks and Constraints 
+        to the environment for agents to learn both safe and optimal policies by minimizing cost functions.
+    </p>
+  </div>
+</div>
+
+<div>
+  <h2>SAFE PANDA GYM</h2>
+  <hr>
+  <div style="display: flex; align-items: center;">
+    <img src="/assets/images/push_safe.png" alt="image-left" style="width: 200px; height: 200px; margin-right: 10px;">
+    <p><strong>Abstract</strong>: A modification to the original Panda Gym environment for the development
+        and experimentation of Safe-RL algorithms by adding more complex tasks and Constraints 
+        to the environment for agents to learn both safe and optimal policies by minimizing cost functions.
+    </p>
+  </div>
+</div>
+
+<div>
+  <h2>SAFE PANDA GYM</h2>
+  <hr>
+  <div style="display: flex; align-items: center;">
+    <img src="/assets/images/push_safe.png" alt="image-left" style="width: 200px; height: 200px; margin-right: 10px;">
+    <p><strong>Abstract</strong>: A modification to the original Panda Gym environment for the development
+        and experimentation of Safe-RL algorithms by adding more complex tasks and Constraints 
+        to the environment for agents to learn both safe and optimal policies by minimizing cost functions.
+    </p>
+  </div>
+</div>
+
+<div>
+  <h2>SAFE PANDA GYM</h2>
+  <hr>
+  <div style="display: flex; align-items: center;">
+    <img src="/assets/images/push_safe.png" alt="image-left" style="width: 200px; height: 200px; margin-right: 10px;">
+    <p><strong>Abstract</strong>: A modification to the original Panda Gym environment for the development
+        and experimentation of Safe-RL algorithms by adding more complex tasks and Constraints 
+        to the environment for agents to learn both safe and optimal policies by minimizing cost functions.
+    </p>
+  </div>
+</div>
 
 <div>
   <h2>SAFE PANDA GYM</h2>
