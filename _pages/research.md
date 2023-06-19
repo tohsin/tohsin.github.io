@@ -51,7 +51,8 @@ author_profile: true
     <img src="/assets/images/push_safe.png" alt="image-left" style="width: 200px; height: 200px; margin-right: 10px;">
     <p><strong>Abstract</strong>: A modification to the original Panda Gym environment for the development
         and experimentation of Safe-RL algorithms by adding more complex tasks and Constraints 
-        to the environment for agents to learn both safe and optimal policies by minimizing cost functions. [North Western - Lynch](#https://www.coursera.org/specializations/modernroboticsKevin){: .btn} 
+        to the environment for agents to learn both safe and optimal policies by minimizing cost functions.
+        <a href="https://github.com/tohsin/Safe-panda-gym.git">Github Link</a>
     </p>
   </div>
 </div>
