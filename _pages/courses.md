@@ -5,10 +5,10 @@ title: "Courses taken"
 author_profile: true
 
 ---
-## <small>Relevant Courses </small>
-<small>These includes relevant courses taken in my Undergrad as well as courses taken personally
+## Relevant Courses 
+These includes relevant courses taken in my Undergrad as well as courses taken personally
 these includes materials from school sites, Open courseware and MOOCs. The rest i learn from books, 
-papers and reading open source  projects source codeee</small>
+papers and reading open source  projects source codeee
 
 --------------------
 ### Robotics
@@ -25,9 +25,8 @@ papers and reading open source  projects source codeee</small>
 ---------------------------
 
 ## Machine Learning and Artificial Intelligence
-- Introduction to Aritifial Intelligence (CS188, MIT, [https://ocw.mit.edu/courses/6-034-artificial-intelligence-fall-2010/ Patrick Henry Winston])
-
-- Deep Learning for Computer Vision (CS231n , Stanford [http://cs231n.stanford.edu Fei-Fei Li])
+- Introduction to Aritifial Intelligence [CS188, MIT,  -  Patrick Henry Winston ](#https://ocw.mit.edu/courses/6-034-artificial-intelligence-fall-2010/){: .btn} 
+- Deep Learning for Computer Vision[CS231n, Stanford -  Fei-Fei Li ](#http://cs231n.stanford.ed ){: .btn} 
 
 ---------------
 
