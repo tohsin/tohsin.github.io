@@ -35,7 +35,7 @@ papers and reading open source  projects source code
 
 
 
-#### <small>Reinforcement Learning</small>
+#### Reinforcement Learning
 - Deep Reinforcement Learing [CS234, Stanford - Emma Brunskill ](#https://web.stanford.edu/class/cs234/){: .btn} 
 - Introduction to Reinforcement Learning[DeepMind.AI - David Silver](#https://www.youtube.com/watch?v=2pWv7GOvuf0&list=PLzuuYNsE1EZAXYR4FJ75jcJseBmo4KQ9){: .btn}
 
