@@ -108,7 +108,7 @@ author:
   avatar           :  "/assets/images/tosin.jpeg"
   bio              : Machine Learning Engineer and Independent Researcher
   location         : "Nigeria, Lagos"
-  email            : #
+  # email            : oluwatosinoseni@gmail.com
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
