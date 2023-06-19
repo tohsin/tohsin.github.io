@@ -7,13 +7,13 @@ author_profile: true
 
 ---
 
-## Relevant Courses 
+### Relevant Courses 
 <small>These includes relevant courses taken in my Undergrad as well as courses taken personally
 these includes materials from school sites, Open courseware and MOOCs. The rest i learn from books, 
-papers and reading open source  projects source code<small>
+papers and reading open source  projects source code</small>
 
 --------------------
-### Robotics
+#### <small>Robotics</small>
 - Introduction to Robotics ( MCE501 )
 - Introduction to Mechatronics ( MCE501 )
 - Introduction to Mobile Robotics(Uni Freiburg [http://ais.informatik.uni-freiburg.de/teaching/ss20/robotics/ Prof. Dr. Wolfram Burgard])
@@ -32,8 +32,8 @@ papers and reading open source  projects source code<small>
 
 ---------------
 
-### Reinforcement Learning
-- Deep Reinforcement Learing [CS234, Stanford - Emma Brunskill ](#https://web.stanford.edu/class/cs234/ ){: .btn} 
+### </small>Reinforcement Learning</small>
+- </small>Deep Reinforcement Learing [CS234, Stanford - Emma Brunskill ](#https://web.stanford.edu/class/cs234/ ){: .btn} </small>
 - Introduction to Reinforcement Learning[DeepMind.AI - David Silver](#https://www.youtube.com/watch?v=2pWv7GOvuf0&list=PLzuuYNsE1EZAXYR4FJ75jcJseBmo4KQ9){: .btn}
 
 -------------------
