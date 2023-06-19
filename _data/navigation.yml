@@ -8,8 +8,8 @@ main:
     url:  /courses/
   - title: "Curriculum Vitae"
     url:  /cv/
-  - title: "Publications "
-    url:  /cv/
+  - title: "Publications"
+    url:  /publications/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
