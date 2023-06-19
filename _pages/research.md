@@ -72,32 +72,30 @@ author_profile: true
       <p>Contributions include:</p>
       <ul>
         <li>SpaceRobotEnvPointCloud-V0: an environment version of SpaceRobotEnv with point cloud used as the observation.</li>
-        <li>Reinforcement learning algorithms implementation and experimentations on different models and performance comparisons (PPO, SAC, DDPG, TRPO)</li>
+        <li>Reinforcement learning algorithms implementation and experimentations on different models and performance comparisons (PPO, SAC, DDPG, TRPO)<a href="https://github.com/Tsinghua-Space-Robot-Learning-Group/SpaceRobotEnv.git">Github Link</a></li>
       </ul>
-      <a href="https://github.com/Tsinghua-Space-Robot-Learning-Group/SpaceRobotEnv.git">Github Link</a>
+      
     </div>
   </div>
 </div>
 
 
 <div>
-  <h2>SpaceRobotEnv (Tsinghua-Space-Robot-Learning-Group)</h2>
+  <h2>2D Localisation and SLAM</h2>
   <hr>
   <div style="display: flex; align-items: center;">
-    <img src="/assets/images/ral.gif" alt="image-left" style="width: 300px; height: 200px; margin-right: 10px;">
-    <p>SpaceRobotEnv is an open-sourced environment for trajectory planning of free-floating space robots.
-        Different from the traditional robot, the free-floating space robot is a dynamic coupling
-        system because of the non-actuated base.
-        Therefore, model-based trajectory planning methods encounter many difficulties in modeling 
-        and computing.
-        Contributions include
-        <ul>
-            <li>SpaceRobotEnvPointCloud-V0 an env version of SpaceRobotEnv with point cloud used as the observation.</li>
-            <li>Reinforcement learning algorithms implementation and experimentations on different models 
-            and performance comparisons (PPO, SAC , DDPG, TRPO)</li>
-            <a href="https://github.com/Tsinghua-Space-Robot-Learning-Group/SpaceRobotEnv.git">Github Link</a>
-        </ul>
-    </p>
+    <img src="/assets/images/2dslam.png" alt="image-left" style="width: 300px; height: 200px; margin-right: 10px;">
+    <div>
+      <p>My implementation of probabilistic robotics algorithms and assignments from introduction to mobile robotics
+        project includes algorithms for localization and SLAM like Particle Filter, Kalman Filter, EKF, and 
+        a capstone implementation of graph SLAM in a 2d Pygame simulator.
+      </p>
+      <ul>
+        <li>Backend optimizes a pose graph generated from moving the robot in the simulator using Gauss Netwon with Schur trick for optimization.</li>
+        <li>Frontend Implements an Iterative closest point for the simulated point cloud and the user has to guide robot to the start point for loop closure<a href="https://github.com/tohsin/Localisation_and_Slam_algorithms_implimentation.git">Github Link</a></li>
+      </ul>
+      
+    </div>
   </div>
 </div>
 
@@ -108,7 +106,7 @@ author_profile: true
     <img src="/assets/images/2dslam.png" alt="image-left" style="width: 300px; height: 200px; margin-right: 10px;">
     <p>My implementation of probabilistic robotics algorithms and assignments from introduction to mobile robotics
         project includes algorithms for localization and SLAM like Particle Filter, Kalman Filter, EKF, and 
-        a capstone implementation of graph SLAM in a 2d Pygame simulator.:</p>
+        a capstone implementation of graph SLAM in a 2d Pygame simulator.</p>
         <ul>
             <li>Backend optimizes a pose graph generated from moving the robot in the simulator using Gauss Netwon with Schur trick for optimization.</li>
             <li>Frontend Implements an Iterative closest point for the simulated point cloud and the user has to guide robot to the start point for loop closure</li>
