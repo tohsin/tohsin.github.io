@@ -136,10 +136,7 @@ author:
       # url: "https://instagram.com/"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/tosin-oseni/" 
-    - label: "Fiverr"
-      icon: "fas fa-fw fa-link"
-      url: " https://www.fiverr.com/rupalibhati"     
+      url: "https://www.linkedin.com/in/tosin-oseni/"  
 
 # Site Footer
 footer:
