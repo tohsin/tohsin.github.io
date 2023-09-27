@@ -8,8 +8,6 @@ main:
     url:  /cv/
   - title: "Publications"
     url:  /publications/
-  - title: "Software Projects"
-    url:  /software_projects/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
