@@ -20,7 +20,7 @@ author_profile: true
   <h2>SafeNeuroEvolution ( Currently Ongoing )</h2>
   <hr>
   <div style="display: flex; align-items: center;">
-    <img src="/assets/images/neuroevolution.png" alt="image-left" style="width: 200; height: 200px; margin-right: 10px;">
+    <img src="/assets/images/neuroevolution.png" alt="image-left" style="width: 200px; height: 200px; margin-right: 10px;">
     <p><strong>Abstract</strong> We present a <strong>NeuroEvolution algorithm</strong> that leverages <strong>parallel computing</strong> and <strong>evolution strategies</strong> to pretrain safe agents without gradient descent.
     </p>
   </div>
