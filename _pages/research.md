@@ -19,7 +19,7 @@ author_profile: true
   <h2>NightMare Dreamer ( Currently Ongoing )</h2>
   <hr>
   <div style="display: flex; align-items: center;">
-    <img src="/assets/images/eval_video.gif" alt="image-left" style="width: 200; height: 200px; margin-right: 10px;">
+    <img src="/assets/images/eval_video_goal.gif" alt="image-left" style="width: 200; height: 200px; margin-right: 10px;">
     <p><strong>Abstract</strong>:We present a <strong>Model-based safe reinforcement learning (RL) algorithm </strong>that builds on the Dreamer work. Our approach to the problem involves <strong>multi-agent and hierarchical planning</strong>. We train two policies: a control agent whose objective is to solve the goal, and a safe agent that aims to mimic the control policy but limits the cost constraint. Both policies are learned purely from imagination. During environment interaction, the agent looks ahead and decides if it should switch to a safe policy under the control policy, leading to a safety guarantee.
     </p>
   </div>
