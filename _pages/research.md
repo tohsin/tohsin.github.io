@@ -7,6 +7,15 @@ author_profile: true
 
 ---
 <div>
+  <h2>DexCatch: Learning to Catch Arbitrary Objects with Dexterous Hands</h2>
+  <hr>
+  <div style="display: flex; align-items: center;">
+    <img src="/assets/images/dex.gif" alt="image-left" style="width: 200; height: 200px; margin-right: 10px;">
+    <p>Achieving human-like dexterous manipulation re- mains a crucial area of research in robotics. Compared with static grasping, dynamic dexterous manipulation can achieve more efficient task execution. For example, the throw-catching behavior has the potential to increase picking speed without transporting objects to their destination. However, it poses a major challenge for stable control due to a large number of dynamic contacts. In this paper, we propose a Stability- Constrained Reinforcement Learning (SCRL) algorithm to learn to catch diverse objects with the hands facing upward and sideward. The SGRL algorithm outperforms baselines by a large margin, and the learned policies show strong zero- shot transfer performance on unseen objects. Remarkably, even though the object in a hand facing sideward is extremely unstable due to the lack of support from the palm, our method can still achieve a high level of success, 52.58%, in the most challenging task.
+    </p>
+  </div>
+</div>
+<div>
   <h2>NightMare Dreamer ( Currently Ongoing )</h2>
   <hr>
   <div style="display: flex; align-items: center;">
