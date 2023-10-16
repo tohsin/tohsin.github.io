@@ -16,12 +16,26 @@ author_profile: true
   </div>
 </div>
 <div>
-  <h2>NightMare Dreamer ( Currently Ongoing )</h2>
+  <h2>NightMare Dreamer ( Releasing Soon )</h2>
   <hr>
   <div style="display: flex; align-items: center;">
     <img src="/assets/images/eval_video_goal.gif" alt="image-left" style="width: 200; height: 200px; margin-right: 10px;">
-    <p><strong>Abstract</strong>:We present a <strong>Model-based safe reinforcement learning (RL) algorithm </strong>that builds on the Dreamer work. Our approach to the problem involves <strong>multi-agent and hierarchical planning</strong>. We train two policies: a control agent whose objective is to solve the goal, and a safe agent that aims to mimic the control policy but limits the cost constraint. Both policies are learned purely from imagination. During environment interaction, the agent looks ahead and decides if it should switch to a safe policy under the control policy, leading to a safety guarantee.
+    <p><strong>Abstract</strong>:We present a <strong>Model-based safe reinforcement learning (RL) algorithm </strong>that builds on the Dreamer work. Our approach to the problem involves <strong>multi-agent and hierarchical planning</strong>. We train two policies: a control agent whose objective is to solve the goal, and a safe agent that aims to mimic the control policy but limits the cost constraint. Both policies are learned purely from imagination. During environment interaction, the agent looks ahead and decides if it should switch to a safe policy under the control policy, leading to a safety guarantee. <strong>Top right Corner: Green is the Control Policy, Red is the time step agent detects violation and switches to Safe Policy</strong>
     </p>
+  </div>
+</div>
+
+<div>
+  <h2>Active Graph Slam and Exploration ( Currently Ongoing ) </h2>
+  <hr>
+  <div style="display: flex; align-items: center;">
+    <img src="assets/images/pose graph.png" alt="image-left" style="width: 200; height: 200px; margin-right: 10px;">
+    <p>
+    Modern RL + Active SLAM methods don't attempt to solve the problem for modern SLAM techniques that use Graph SLAM. To address this and provide a framework for future agents to explore and reason about the world, we aim to leverage the graph structure itself as a reward signal. For example, the number of spanning trees in a graph is related to the entropy of the 'map uncertainty,' and the graph's Lagrangian can be used as an optimality criterion. We divide the task between a global and local actor to circumvent the issues that arise from RL applications in this domain, which tend to memorize the maps, making generalization difficult. One agent finds the best position to explore and other agent navigates to the point.
+    Note: Finishing the work is challenging due to limited access to resources in Nigeria.
+    </p>
+    <p>
+ 
   </div>
 </div>
 
