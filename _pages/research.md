@@ -29,7 +29,7 @@ author_profile: true
   <h2>Active Graph Slam and Exploration ( Currently Ongoing ) </h2>
   <hr>
   <div style="display: flex; align-items: center;">
-    <img src="assets/images/pose graph.png" alt="image-left" style="width: 200; height: 200px; margin-right: 10px;">
+    <img src="assets/images/pose_graph.png" alt="image-left" style="width: 200; height: 200px; margin-right: 10px;">
     <p>
     Modern RL + Active SLAM methods don't attempt to solve the problem for modern SLAM techniques that use Graph SLAM. To address this and provide a framework for future agents to explore and reason about the world, we aim to leverage the graph structure itself as a reward signal. For example, the number of spanning trees in a graph is related to the entropy of the 'map uncertainty,' and the graph's Lagrangian can be used as an optimality criterion. We divide the task between a global and local actor to circumvent the issues that arise from RL applications in this domain, which tend to memorize the maps, making generalization difficult. One agent finds the best position to explore and other agent navigates to the point.
     Note: Finishing the work is challenging due to limited access to resources in Nigeria.
