@@ -25,8 +25,8 @@ author_profile: true
 
 <p class="small">
   <font size="3">
-     NightMare Dreamer: Dreaming about Unsafe States and Planning Ahead<br />
-      <strong>Oluwatosin Oseni</strong>, Shengjie Wang,   Yang Gao, Tao Zhang ( Under Review ).
+     Nightmare Dreamer: Dreaming about Unsafe States and Planning Ahead<br />
+      <strong>Oluwatosin Oseni</strong>, Shengjie Wang,  Jun Zhu, Micah Corah(RSS 2025 Multi Objective Optimization Workshop ).
   </font>
 </p>
 

@@ -105,14 +105,14 @@ analytics:
 # Site Author
 author:
   name             : "Tosin Oseni"
-  avatar           :  "/assets/images/tosin.jpeg"
-  bio              : Machine Learning Engineer and Independent Researcher
-  location         : "Nigeria, Lagos"
-  # email            : oluwatosinoseni@gmail.com
+  avatar           :  "/assets/images/tosin.jpg"
+  bio              : Phd Student at Colorado School of Mines, Robotics and Reinforcement Learning Researcher
+  location         : "Colorado, USA"
+  email            : oluwatosin_oseni@mines.edu
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:oseni.oluwatosin@stu.cu.edu.ng"
+      url: "mailto:oluwatosin_oseni@mines.edu"
     - label: "Google Scholar"
       icon: "fab fa-fw fa-google"
       url: "https://scholar.google.com/citations?user=fTZbAFsAAAAJ&hl=en"    
