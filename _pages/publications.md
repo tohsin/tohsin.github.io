@@ -6,6 +6,14 @@ author_profile: true
 
 
 ---
+<p class="small">
+  <font size="3">
+    <a href="/assets/papers/RSS_Dreamer.pdf">
+     Nightmare Dreamer: Dreaming about Unsafe States and Planning Ahead<br />
+      <strong>Oluwatosin Oseni</strong>, Shengjie Wang,  Jun Zhu, Micah Corah(RSS 2025 Multi Objective Optimization Workshop ).
+  </font>
+</p>
+
 
 <p class="small">
   <font size="3">
@@ -20,13 +28,6 @@ author_profile: true
     <a href="https://arxiv.org/pdf/2310.08809.pdf">
      DexCatch: Learning to Catch Artbrary Objects with Dexterous Hands</a> <br />
      Fengbo Lan, Shengjie Wang, Yunzhe Zhang, Haotian Xu, <strong>Oluwatosin Oseni</strong>, Yang Gao, Tao Zhang, Senior Member, IEEE ( Submitted RA-L 2023 )
-  </font>
-</p>
-
-<p class="small">
-  <font size="3">
-     Nightmare Dreamer: Dreaming about Unsafe States and Planning Ahead<br />
-      <strong>Oluwatosin Oseni</strong>, Shengjie Wang,  Jun Zhu, Micah Corah(RSS 2025 Multi Objective Optimization Workshop ).
   </font>
 </p>
 
